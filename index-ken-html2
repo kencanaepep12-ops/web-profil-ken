@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewsport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Profil Siswa</title>
+</head>
+<body>
+
+    <!-- 1. HEADER (PARENT UTAMA BAGIAN ATAS)-->
+     <header class="header-utam">
+         <h1>Kencana Widya A</h1>
+         <p>Siswa kelas 10 SMA | Calon Web Developer</p>
+
+         <!-- NAV ADALAH CHILD DARI HEADER, PARENT DARI LINK -->
+         <nav class="navigasi-web">
+            <a href="#kentang">tentang</a> |
+            <a href="keahlian">keahlian</a> |
+            <a href="#proyek">Proyek</a> |
+            <a href="#kontak">Kontak</a>
+         </nav>
+    </header>
+
+    <hr>
+
+    <!-- MAIN (PERENT UTAMA BAGIAN ATAS) -->
+     <main class="konten-utama">
+
+        <!-- SECTION 1: TENTANG SAYA -->
+        <section id="tentang" class="blok-konten">
+            <h2>tentang saya</h2>
+            <p>Halo! saya sedang belajar dasar-dasar web desain, Git, dan HTML semantik di sekolah.</p>
+        </section>
+
+        <!--SECTION 2: KEAHLIAN (MEMILIKI CHILD LIST) -->
+        <section id="keahlian" class="blok-konten">
+            <h2>keahlian yang dipelajari</h2>
+            <ui class="daftar-skill">
+                <1i>sturktur Dokumen  Dipelajari</1i>
+                <1i>Version Control dengan Git & Gitthub</1i>
+                <1i>Pengaturan Layout Parent-Child</1i>
+            </ui>
+        </section>
+
+        <!-- SECTION 3: KARTU PROYEK (MEMILIKI PARENT ARTICLE)-->
+         <section id="proyek" class="blok-konten">
+            <h2>Proyek Portofolio</h2>
+
+            <article class="kartu-proyek">
+                <h3>Proyek 1: Halaman Profil Statis</h3>
+                <p>Website biodata pertama yang dibangun menggunakan XAMPP lokal dan di-host di Gitthub Pages.</p>
+            </article>
+
+            <article class="kartu-proyek">
+                <h3>Proyek 2: Eksperimen Branching Git</h3>
+                <p>Latihan alur kerja cabang (*branch*) dan penggabungan kode (*merge*) di Git Bash.</p>
+            </article>
+         </section>
+
+    </main>
+
+    <hr>
+
+    <!-- 3. FOOTER (PARENT BAGIAN BAWAH) -->
+    <footer id="kontak" class="footer-bawah">
+        <p>Dibuat dengan semangat belajar &copy; 2026 Kencan-Widya-A</p>
+        <p>
+            Kunjungi:
+            <a href="https://github.com/web-profil-saya-kencanaepep12" target="_blanl">Profil GItHub</a>
+        </p>
+    </footer>
+
+    </body>
+    </html>
+        
